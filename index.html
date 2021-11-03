@@ -22,26 +22,8 @@
       <button>Play/Pause</button>
     </main>
 
-    <script>
-      const video = document.querySelector("video")
-      const button = document.querySelector("button")
-
-      function MediaPlayer (config){
-        this.media = config.el
-      }
-
-      MediaPlayer.prototype.play = function(){
-        if(this.media.paused){
-        this.media.play();
-        } else {
-            this.media.pause()
-        }
-      }
-
-      const player =  new MediaPlayer({el: video});
-
-      button.onclick = () => player.play();
-
-    </script>
+    <script src="./assets/index.js"></script>
+    <!-- <script defer >se ejecuta normal y hasta el final lanza la ejecucion</script>
+    <script async >lo que hace es hacer que se ejecuten de manera asincrona</script> -->
   </body>
 </html>
