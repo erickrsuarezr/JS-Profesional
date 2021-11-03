@@ -11,6 +11,6 @@
   "author": "Erick Rodolfo Suarez Ruiz <erickrsuarezr@hotmail.com>",
   "license": "ISC",
   "devDependencies": {
-    "live-server": "^1.1.0"
+    "live-server": "^1.2.1"
   }
 }
