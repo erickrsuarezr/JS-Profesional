@@ -11,7 +11,7 @@ class MediaPlayer {
     }
     initPlayer(){
         this.container = document.createElement('div');
-
+        this.container.style.position = 'relative';
         this.media.parentNode.insertBefore(this.container, this.media);//contenedor a lado de media
 
         this.container.appendChild(this.media);//Media dentro de contenedor
